@@ -1,6 +1,6 @@
-### Creating and Deploying a Hugo Site to Github Pages
+### Creating a Hugo Site and Deploying it to Github Pages
 
-1. Create 1 empty GitHub repository called [githubusername].github.io
+1. Create a GitHub repository called [githubusername].github.io
 
 2. Install requirements on you local machine
     - [Hugo](https://gohugo.io/installation/) (Use the extended edition if you need need Sass)
@@ -29,10 +29,10 @@
 6. Create and publish Hugo's dynamitically created pages to Github and optinally a custom them and other static content
     ```console
         ~/githubusername-hugo$ hugo
-         ~/githubusername-hugo$ git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod # chosen theme
-         ~/githubusername-hugo$ git submodule add --depth=1 https://github.com/mdxe/days_since.git static/days_since
+        ~/githubusername-hugo$ git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod # chosen theme
+        ~/githubusername-hugo$ git submodule add --depth=1 https://github.com/mdxe/days_since.git static/days_since
         ~/githubusername-hugo$ cd public
-        ~/githubusername-hugo/public$ git config --global alias.here '!git init . && git add . && git commit --allow-empty -m "Initialize repository"' # create a git alias
+        ~/githubusername-hugo/public$ git config --global alias.here '!git init . && git add . && git commit --allow-empty -m "Initialize repository"'
         ~/githubusername_hugo/public$ git here
         ~/githubusername_hugo/public$ git branch -M main
         ~/githubusername_hugo/public$ git remote add origin git@github.com:githubusername/githubusername.github.io.git
