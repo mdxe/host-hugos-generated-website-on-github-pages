@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Notes by githubusername</title>
+    <link>http://githubusername.github.iog/</link>
+    <description>Recent content on Notes by githubusername</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://githubusername.github.iog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posts</title>
+      <link>http://githubusername.github.iog/posts/</link>
+      <pubDate>Thu, 02 Feb 2023 01:07:09 -0500</pubDate>
+      
+      <guid>http://githubusername.github.iog/posts/</guid>
+      <description>Hello from user.github.io</description>
+    </item>
+    
+  </channel>
+</rss>

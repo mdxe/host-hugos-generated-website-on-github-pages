@@ -1,0 +1,42 @@
+.centered {
+      text-align: center;
+}
+
+#container {
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+  
+.button {
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 16px;
+}
+  
+#calendar {
+    margin-top: 16px;
+}
+  
+#reset_button {
+    background-color: #FF0000;
+}
+
+#set_button {
+    background-color: #00FF00;
+}
+
+#result {
+    font-size: 64px;
+    color: green;
+}
+
+."add_to_home_screen" {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}

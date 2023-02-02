@@ -1,0 +1,14 @@
+{
+  "background_color": "#ffffff",
+  "description": "Days since date - Online Calculator App",
+  "display": "fullscreen",
+  "icons": [ {
+      "src": "favicon120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    }
+  ],
+  "name": "Days since date",
+  "short_name": "Days since",
+  "start_url": "/days_since/index.html",
+}

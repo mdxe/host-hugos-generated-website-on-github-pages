@@ -1,0 +1,23 @@
+# Change baseURL here if you plan to host your site in a sub-directory
+# baseURL = "http://githubusername.github.iog/hugo/"
+baseURL = "http://githubusername.github.iog/"
+languageCode = "en-us"
+title = "Notes by githubusername"
+author = "githubusername"
+# theme = "purehogo"
+theme = "PaperMod"
+
+[Author]
+    name = "githubusername"
+[Permalinks]
+    blog = "/:year/:month/:filename/"
+    code = "/:filename/"
+[Taxonomies]
+    tag = "tags"
+    series = "series"
+    series-desc = "series-desc"
+[params]
+    description = "description"
+    twitter = "https://twitter.com/githubusername"
+    github = "https://github.com/githubusername"
+    disqus = ""

@@ -1,0 +1,3 @@
+[submodule "static/days_since"]
+	path = static/days_since
+	url = https://github.com/mdxe/days_since.git
